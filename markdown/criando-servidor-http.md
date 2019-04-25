@@ -1,3 +1,3 @@
 # Criando servidor HTTP #
 
-* [ir para](https://github.com/deppbrazil/course-goNode/blob/master/modulo1)
+* [Clique aqui](https://github.com/deppbrazil/course-GoNode/blob/master/modulo1/index.js)
