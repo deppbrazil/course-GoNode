@@ -1,4 +1,4 @@
-# Fluxo de requisição #
+# Fluxo de requisição - Interceptadores (Middlewares) #
 
 ### Adicionando um Meddleware ###
 
@@ -28,4 +28,10 @@ const logMiddleware = (req, res, next) => {
 app.get('/', logMiddleware, (req, res) => {
     return res.send(`Welcome, ${req.query.name}`);
 });
-````
+```
+
+### Adicionado os Middleware em todas as rotas ###
+
+```js
+app.use(logMiddleware);
+```
