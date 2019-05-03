@@ -3,9 +3,6 @@
 
 ### Módulo 1 - Ambiente e conceitos ###
 
-#### Rodar: ####
-* yarn start
-
 **[{ Código }](https://github.com/deppbrazil/course-goNode/blob/master/modulo1)**
 
 * [Introdução e arquitetura](https://github.com/deppbrazil/course-goNode/blob/master/markdown/introducao-arquitetura.md)
