@@ -12,8 +12,14 @@ const express = require("express")
 
 const app = express();
 
+const logMiddleware = (req, res) => {
+    console.log(
+        `HOST: ${req.headers.host} | URL: ${req.url} | METHOD: ${req.method}`
+    );
+};
+
 // pegando parametros get ou query params da url 
-app.get('/', (req, res) => {
+app.get('/', logMiddleware, (req, res) => {
     return res.send(`Welcome, ${req.query.name}`);
 });
 
