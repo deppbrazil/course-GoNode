@@ -1,7 +1,9 @@
 # Configurando Nunjucks #
 
 ### Adicionado ###
-`yarn add nunjucks`
+```js
+yarn add nunjucks
+```
 
 ### importando ###
 ```js
