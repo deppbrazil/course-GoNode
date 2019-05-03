@@ -3,7 +3,7 @@
 ### Rodar ###
 * `yarn nodemon -D` O -D adiciona apenas como uma dependencia de desenvolvimento e não de produção
 
-### Adicionar em Package.json ###
+### Adicionar Scripts em Package.json ###
 
 * Add:
 

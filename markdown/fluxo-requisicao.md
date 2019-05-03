@@ -9,3 +9,23 @@ const logMiddleware = (req, res) => {
     );
 };
 ```
+
+### Para não bloquear o fluxo de requisições adicionar a função Next() ###
+
+```js
+const logMiddleware = (req, res, next) => {
+    console.log(
+        `HOST: ${req.headers.host} | URL: ${req.url} | METHOD: ${req.method}`
+    );
+
+    return next();
+};
+```
+
+### Chamando o Middleware dentro da rota principal ###
+
+```js
+app.get('/', logMiddleware, (req, res) => {
+    return res.send(`Welcome, ${req.query.name}`);
+});
+````

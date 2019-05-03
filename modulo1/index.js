@@ -12,10 +12,12 @@ const express = require("express")
 
 const app = express();
 
-const logMiddleware = (req, res) => {
+const logMiddleware = (req, res, next) => {
     console.log(
         `HOST: ${req.headers.host} | URL: ${req.url} | METHOD: ${req.method}`
     );
+
+    return next();
 };
 
 // pegando parametros get ou query params da url 
