@@ -4,7 +4,7 @@
 ### Módulo 1 - Ambiente e conceitos ###
 
 #### Rodar: ####
-``` yarn start ```
+* yarn start
 
 **[{ Código }](https://github.com/deppbrazil/course-goNode/blob/master/modulo1)**
 
