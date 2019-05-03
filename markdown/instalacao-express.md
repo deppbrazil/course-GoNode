@@ -1,4 +1,6 @@
 # Intalação ExpressJS #
 
 ### Rodar ###
-* `yarn add express`
+```js
+yarn add express
+```
