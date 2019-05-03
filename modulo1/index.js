@@ -14,18 +14,18 @@ const app = express();
 
 // pegando parametros get ou query params da url 
 app.get('/', (req, res) => {
-    return res.send(`Bem-vindo, ${req.query.name}`);
+    return res.send(`Welcome, ${req.query.name}`);
 });
 
 // pegando nome na url 
 app.get("/nome/:name", (req, res) => {
-    return res.send(`Bem-vindo, ${req.params.name}`);
+    return res.send(`Welcome, ${req.params.name}`);
 });
 
 // retornando um json 
 app.get("/api/:name", (req, res) => {
     return res.json( {
-        message: `Bem-vindo, ${req.params.name}`
+        message: `Welcome, ${req.params.name}`
     });
 });
 
