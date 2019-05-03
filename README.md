@@ -12,3 +12,4 @@
 * [Utilizando Nodemon](https://github.com/deppbrazil/course-goNode/blob/master/markdown/utilizando-nodemon.md)
 * [Fluxo de requisição](https://github.com/deppbrazil/course-goNode/blob/master/markdown/fluxo-requisicao.md)
 * [Configurando Nunjucks](https://github.com/deppbrazil/course-goNode/blob/master/markdown/configurando-nunjucks.md)
+* [Renderizando dados na view](https://github.com/deppbrazil/course-goNode/blob/master/markdown/renderizando-dados-na-view.md)
