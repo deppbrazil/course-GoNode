@@ -7,3 +7,4 @@
 * [Instalação Node e Yarn](https://github.com/deppbrazil/course-goNode/blob/master/markdown/instalacao-node-yarn.md)
 * [Criado servidor HTTP](https://github.com/deppbrazil/course-goNode/blob/master/markdown/criando-servidor-http.md)
 * [Instalação do ExpressJS](https://github.com/deppbrazil/course-goNode/blob/master/markdown/instalacao-express.md)
+* [Utilizando Nodemon](https://github.com/deppbrazil/course-goNode/blob/master/markdown/utilizando-nodemon.md)
